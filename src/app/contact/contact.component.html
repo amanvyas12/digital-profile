@@ -1,0 +1,97 @@
+<div id="top-section"></div>
+<section class="main nopad-b">
+  <div class="row">
+    <div id="text-main" class="col-5" style="visibility: visible; right: 0%; opacity: 1;">
+      <h1>contact.</h1>
+      <p class="intro">Do you speak Na’vi? It's ok if you don't, I speak English too.</p>
+
+      <ul class="social-disc">
+        <li><a href="https://www.twitter.com" target="_blank" class="twitter">Twitter</a></li>
+        <li><a href="https://www.facebook.com" target="_blank" class="facebook">Facebook</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank" class="linkedin">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com" target="_blank" class="instagram">Instagram</a></li>
+      </ul>
+
+    </div>
+    <div id="img-main" class="col-7 align-c" style="visibility: visible; left: 0%; opacity: 1;">
+      <img id="navi" class="major preload"
+        src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-navi.jpg"
+        alt="adham dannaway navi character" style="opacity: 1;">
+    </div>
+  </div>
+</section>
+<hr class="first-section-divide">
+
+
+<section id="content-detail" class="dark" style="opacity: 1; top: 0px;">
+  <div class="row contactDetails">
+
+    <div class="col-12">
+      <h2 class="emailClass">Send me an email</h2>
+    </div>
+    <div role="form" class="wpcf7" id="wpcf7-f16-o1" lang="en-US" dir="ltr">
+      <div class="screen-reader-response">
+        <p role="status" aria-live="polite" aria-atomic="true"></p>
+        <ul></ul>
+      </div>
+      <form action="/contact#wpcf7-f16-o1" method="post" class="wpcf7-form init completeForm" novalidate="novalidate" data-status="init">
+        <div style="display: none;">
+          <input type="hidden" name="_wpcf7" value="16">
+          <input type="hidden" name="_wpcf7_version" value="5.4.1">
+          <input type="hidden" name="_wpcf7_locale" value="en_US">
+          <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f16-o1">
+          <input type="hidden" name="_wpcf7_container_post" value="0">
+          <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+        </div>
+        <div class="">
+          <p>Name<br>
+            <span class="your-name"><input type="text" name="your-name" value="" size="40" aria-required="true"
+                aria-invalid="false" ></span>
+          </p>
+          <p>Email<br>
+            <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email email"
+                aria-required="true" aria-invalid="false"></span>
+          </p>
+        </div>
+        <div class="nomargin clearfix">
+          <p>Message<br>
+            <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="5"
+                class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required message" aria-required="true"
+                aria-invalid="false"></textarea></span>
+          </p>
+          <p class="submitButton"><input type="submit" value="Send email" class="wpcf7-form-control wpcf7-submit submit"
+              aria-invalid="false"><span class="ajax-loader"></span></p>
+        </div>
+        <div class="wpcf7-response-output" aria-hidden="true"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer id="footer" role="contentinfo" style="opacity: 1; top: 0px;">
+
+  <div class="">
+    <div class="col-12">
+      <div class="left"><a class="footer-transition" href="https://www.adhamdannaway.com/">© 2021 Aman Vyas</a></div>
+      <nav id="nav-footer">
+        <ul>
+          <li class="page_item page-item-2 current_page_item"><a [routerLink]="['/about']" aria-current="page">about</a>
+          </li>
+          <!-- <li class="page_item page-item-5"><a [routerLink]="['/featured']">featured</a></li> -->
+          <li class="page_item page-item-7"><a [routerLink]="['/portfolio']">portfolio</a></li>
+          <li class="page_item page-item-9"><a [routerLink]="['/blog']">blog</a></li>
+          <li class="page_item page-item-11"><a [routerLink]="['/contact']">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="gradient-white">
+    <a class="top" id="top" (click)="top()">back to top</a>
+  </div>
+</footer>
